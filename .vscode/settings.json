@@ -1,0 +1,146 @@
+{
+    "[css]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        },
+        "editor.formatOnSave": false
+    },
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[scss]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        },
+        "editor.formatOnSave": false
+    },
+    "[svelte]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true,
+        },
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "better-comments.tags": [
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#00C1F5",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "ex:",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#FF2D00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "!",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#3498DB",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "?",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#474747",
+            "italic": false,
+            "strikethrough": true,
+            "tag": "//",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#FF8C00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "todo",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#98C379",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "*",
+            "underline": false
+        }
+    ],
+    "css.completion.completePropertyWithSemicolon": false,
+    "css.validate": false,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": false,
+        "source.fixAll.eslint": false
+    },
+    "eslint.validate": [
+        "svelte"
+    ],
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.guides.bracketPairs": true,
+    "editor.occurrencesHighlight": false,
+    "editor.rulers": [
+        120,
+        140
+    ],
+    "editor.snippetSuggestions": "top",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 120,
+    "emmet.excludeLanguages": [
+        "css",
+        "scss"
+    ],
+    "emmet.optimizeStylesheetParsing": false,
+    "emmet.showSuggestionsAsSnippets": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.onIgnoredFiles": "warn",
+    "eslint.run": "onSave",
+    "files.eol": "\r\n",
+    "html.format.contentUnformatted": "pre,code,textarea",
+    "html.format.endWithNewline": true,
+    "html.format.extraLiners": "head, body, /html",
+    "html.format.indentHandlebars": false,
+    "html.format.indentInnerHtml": false,
+    "html.format.maxPreserveNewLines": null,
+    "html.format.preserveNewLines": true,
+    "html.format.wrapLineLength": 120,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "less.completion.completePropertyWithSemicolon": false,
+    "less.validate": false,
+    "scss.completion.completePropertyWithSemicolon": false,
+    "scss.scannerDepth": 60,
+    "scss.scannerExclude": [
+        "**/.git",
+        "**/node_modules",
+        "**/assets/compiled",
+        "**/dist"
+    ],
+    "scss.showErrors": true,
+    "scss.validate": false,
+    "stylelint.snippet": [],
+    "stylelint.validate": [
+        "css",
+        "less",
+        "postcss",
+        "sass",
+        "scss",
+        "svelte"
+    ]
+}
