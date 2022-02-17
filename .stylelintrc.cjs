@@ -25,7 +25,7 @@ module.exports = {
         'function-name-case': [
             'lower',
             {
-                ignoreFunctions: [ /.*/, /^get.*$/ ],
+                ignoreFunctions: [ /.*/, /^get.*$/ ], //Force camelCase
             },
         ],
         'rule-empty-line-before': 'always',
@@ -44,13 +44,7 @@ module.exports = {
             },
         ],
         'max-empty-lines': 1,
-        indentation: [
-            4,
-            {
-                message: 'Please use 4 spaces for indentation.',
-                severity: 'warning',
-            },
-        ],
+        indentation: 'tab',
         'order/order': [
             'custom-properties',
             'dollar-variables',
