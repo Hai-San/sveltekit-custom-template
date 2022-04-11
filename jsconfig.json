@@ -1,22 +1,22 @@
 {
-    "compilerOptions": {
-        "baseUrl": ".",
-        "paths": {
-            "$lib": [
-                "src/lib"
-            ],
-            "$lib/*": [
-                "src/lib/*"
-            ]
-        }
-    },
-    "include": [
-        "src/**/*.js",
-        "src/**/*.svelte"
-    ],
-    "exclude": [
-        "node_modules",
-        "**/node_modules",
-        "dist"
-    ]
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"$lib": [
+				"src/lib"
+			],
+			"$lib/*": [
+				"src/lib/*"
+			]
+		}
+	},
+	"include": [
+		"src/**/*.js",
+		"src/**/*.svelte"
+	],
+	"exclude": [
+		"node_modules",
+		"**/node_modules",
+		"dist"
+	]
 }

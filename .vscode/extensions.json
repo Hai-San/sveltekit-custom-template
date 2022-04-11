@@ -1,13 +1,9 @@
 {
     "recommendations": [
         "stylelint.vscode-stylelint",
-        "naumovs.color-highlight",
-        "mrmlnc.vscode-scss",
         "dbaeumer.vscode-eslint",
         "editorconfig.editorconfig",
-        "christian-kohler.path-intellisense",
-        "aaron-bond.better-comments",
         "github.github-vscode-theme",
-        "oderwat.indent-rainbow"
+        "svelte.svelte-vscode"
     ]
 }
