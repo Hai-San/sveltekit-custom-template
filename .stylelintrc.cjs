@@ -6,11 +6,11 @@ module.exports = {
             customSyntax: require('postcss-html')({
                 css: 'postcss-safe-parser',
                 scss: require('postcss-scss')
-            }),
+            })
         }
     ],
     rules: {
-        "scss/at-rule-no-unknown": true,
+        'scss/at-rule-no-unknown': true,
         'scss/at-extend-no-missing-placeholder': true,
         'scss/at-function-parentheses-space-before': 'always',
         'scss/at-mixin-parentheses-space-before': 'always',
@@ -25,23 +25,22 @@ module.exports = {
         'function-name-case': [
             'lower',
             {
-                ignoreFunctions: [ /.*/, /^get.*$/ ], //Force camelCase
-            },
+                ignoreFunctions: [ /.*/, /^get.*$/ ] //Force camelCase
+            }
         ],
         'rule-empty-line-before': 'always',
         'at-rule-empty-line-before': 'always',
-        "at-rule-no-unknown": null,
+        'at-rule-no-unknown': null,
         'declaration-block-trailing-semicolon': 'always',
         'block-no-empty': null,
         'value-keyword-case': 'lower',
-        'function-name-case': 'lower',
         'number-leading-zero': 'never',
         'string-quotes': 'single',
         'comment-empty-line-before': [
             'always',
             {
-                ignore: [ 'stylelint-commands', 'after-comment' ],
-            },
+                ignore: [ 'stylelint-commands', 'after-comment' ]
+            }
         ],
         'max-empty-lines': 1,
         indentation: 'tab',
@@ -54,17 +53,17 @@ module.exports = {
             {
                 type: 'at-rule',
                 name: 'include',
-                hasBlock: true,
+                hasBlock: true
             },
             {
                 type: 'at-rule',
                 name: 'media',
-                hasBlock: true,
+                hasBlock: true
             },
             {
                 type: 'at-rule',
                 name: 'content',
-                hasBlock: false,
+                hasBlock: false
             }
         ],
         'order/properties-order': [
@@ -73,7 +72,7 @@ module.exports = {
                     groupName: 'Position',
                     emptyLineBefore: 'always',
                     noEmptyLineBetween: true,
-                    properties: [ 'position', 'top', 'right', 'bottom', 'left', 'z-index' ],
+                    properties: [ 'position', 'top', 'right', 'bottom', 'left', 'z-index' ]
                 },
                 {
                     groupName: 'Display e modelo de caixa',
@@ -117,8 +116,8 @@ module.exports = {
                         'overflow',
                         'overflow-wrap',
                         'overflow-x',
-                        'overflow-y',
-                    ],
+                        'overflow-y'
+                    ]
                 },
                 {
                     groupName: 'Medições e espaçamentos da caixa',
@@ -141,8 +140,8 @@ module.exports = {
                         'margin-bottom',
                         'margin-left',
                         'margin-right',
-                        'gap',
-                    ],
+                        'gap'
+                    ]
                 },
                 {
                     groupName: 'Estilização da caixa',
@@ -201,8 +200,8 @@ module.exports = {
                         'outline-offset',
                         'outline-style',
                         'outline-width',
-                        'box-shadow',
-                    ],
+                        'box-shadow'
+                    ]
                 },
                 {
                     groupName: 'Textos',
@@ -252,8 +251,8 @@ module.exports = {
                         'column-width',
                         'word-break',
                         'word-spacing',
-                        'word-wrap',
-                    ],
+                        'word-wrap'
+                    ]
                 },
                 {
                     groupName: 'Transform, transition e animação',
@@ -277,20 +276,20 @@ module.exports = {
                         'animation-iteration-count',
                         'animation-name',
                         'animation-play-state',
-                        'animation - timing - function',
-                    ],
+                        'animation - timing - function'
+                    ]
                 },
                 {
                     groupName: 'Outros',
                     emptyLineBefore: 'always',
                     noEmptyLineBetween: true,
-                    properties: [ 'cursor', 'caret-color' ],
+                    properties: [ 'cursor', 'caret-color' ]
                 }
             ],
             {
                 unspecified: 'bottomAlphabetical',
-                emptyLineBeforeUnspecified: 'always',
-            },
-        ],
-    },
+                emptyLineBeforeUnspecified: 'always'
+            }
+        ]
+    }
 };
